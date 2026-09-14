@@ -1,0 +1,52 @@
+
+.status-control-box {
+  background-color: rgba(56, 189, 248, 0.05);
+  border-color: rgba(56, 189, 248, 0.2);
+}
+
+.status-buttons-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.status-select-btn {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  color: #94a3b8;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.status-select-btn:hover {
+  background-color: #334155;
+}
+
+.status-select-btn.active.new {
+  background-color: #3b82f6;
+  color: #fff;
+  border-color: #2563eb;
+}
+
+.status-select-btn.active.under-review {
+  background-color: #f59e0b;
+  color: #fff;
+  border-color: #d97706;
+}
+
+.status-select-btn.active.monitored {
+  background-color: #10b981;
+  color: #fff;
+  border-color: #059669;
+}
+
+.status-select-btn.active.resolved {
+  background-color: #64748b;
+  color: #fff;
+  border-color: #475569;
+}

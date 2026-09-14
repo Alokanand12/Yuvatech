@@ -1,0 +1,48 @@
+.gov-nav {
+  background-color: #111827;
+  border-bottom: 1px solid #1e293b;
+  padding: 0 2rem;
+}
+
+.gov-nav-content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  overflow-x: auto;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.25rem;
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: #f8fafc;
+  background-color: rgba(30, 41, 59, 0.5);
+}
+
+.nav-link.active {
+  color: #38bdf8;
+  border-bottom-color: #0284c7;
+  background-color: rgba(2, 132, 199, 0.1);
+}
+
+.nav-icon {
+  width: 18px;
+  height: 18px;
+}
