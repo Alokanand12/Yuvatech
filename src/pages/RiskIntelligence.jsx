@@ -1,6 +1,9 @@
 import React, { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
+<<<<<<< HEAD
 import { useAIChat } from '../context/AIChatContext';
+=======
+>>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
 import { 
   ShieldAlert, Grid, BarChart2, Layers, Cpu, GitBranch, ArrowRight, Activity, TrendingUp
 } from 'lucide-react';
@@ -23,7 +26,10 @@ const RISK_COLORS = {
 
 export default function RiskIntelligence() {
   const navigate = useNavigate();
+<<<<<<< HEAD
   const { openChat } = useAIChat();
+=======
+>>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
 
   // Process data using engines
   const {
@@ -121,11 +127,16 @@ export default function RiskIntelligence() {
             Systemic risk matrix, sector vulnerability profiling, and predictive infrastructure telemetry
           </p>
         </div>
+<<<<<<< HEAD
         <div className="header-meta-group" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <span className="demo-tag">LIVE ANALYTICS ENGINE</span>
           <button className="btn btn-primary" onClick={openChat}>
             Explain these risks <ArrowRight className="icon-xs" />
           </button>
+=======
+        <div className="header-meta-group">
+          <span className="demo-tag">LIVE ANALYTICS ENGINE</span>
+>>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
         </div>
       </div>
 

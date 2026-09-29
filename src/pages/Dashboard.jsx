@@ -1,6 +1,9 @@
 import React, { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
+<<<<<<< HEAD
 import { useAIChat } from '../context/AIChatContext';
+=======
+>>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
 import {
   Building2, AlertTriangle, Bell, IndianRupee, TrendingUp,
   Activity, ArrowRight, ShieldAlert, ChevronRight, BarChart3,
@@ -73,7 +76,10 @@ function KpiCard({ title, value, subtext, trend, icon: Icon, variant }) {
 // ── Main Dashboard ────────────────────────────────────────────────────────────
 export default function Dashboard() {
   const navigate = useNavigate();
+<<<<<<< HEAD
   const { openChat } = useAIChat();
+=======
+>>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
 
   // ── Compute everything from centralized dataset ────────────────────────────
   const {
@@ -226,8 +232,13 @@ export default function Dashboard() {
             <span className="demo-tag">DEMO DATA</span>
           </p>
         </div>
+<<<<<<< HEAD
         <button className="btn btn-primary" onClick={() => openChat()}>
           Ask AI about this dashboard <ArrowRight className="icon-xs" />
+=======
+        <button className="btn btn-primary" onClick={() => navigate('/ai-assistant')}>
+          Ask Intelligence Assistant <ArrowRight className="icon-xs" />
+>>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
         </button>
       </div>
 

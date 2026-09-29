@@ -1,7 +1,11 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+<<<<<<< HEAD
 import { Bell, Search, Filter, AlertTriangle, ShieldAlert, Eye, CheckCircle2, RefreshCw, ArrowRight } from 'lucide-react';
 import { useAIChat } from '../context/AIChatContext';
+=======
+import { Bell, Search, Filter, AlertTriangle, ShieldAlert, Eye, CheckCircle2, RefreshCw } from 'lucide-react';
+>>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
 import RiskBadge from '../components/RiskBadge';
 import WarningModal from '../components/WarningModal';
 import { generateWarnings } from '../utils/warningEngine';
@@ -9,7 +13,10 @@ import './EarlyWarnings.css';
 
 export default function EarlyWarnings() {
   const navigate = useNavigate();
+<<<<<<< HEAD
   const { openChat } = useAIChat();
+=======
+>>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedType, setSelectedType] = useState('ALL');
@@ -91,12 +98,18 @@ export default function EarlyWarnings() {
             Automated CUF anomaly detection engine triggering real-time risk alerts across national infrastructure projects
           </p>
         </div>
+<<<<<<< HEAD
         <div className="header-meta-group" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <span className="demo-tag">LIVE ALERT ENGINE</span>
           <span className="alert-count-pill">{warnings.length} Total Triggers</span>
           <button className="btn btn-primary" onClick={openChat}>
             Analyze these warnings <ArrowRight className="icon-xs" />
           </button>
+=======
+        <div className="header-meta-group">
+          <span className="demo-tag">LIVE ALERT ENGINE</span>
+          <span className="alert-count-pill">{warnings.length} Total Triggers</span>
+>>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
         </div>
       </div>
 
