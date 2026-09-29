@@ -1,9 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-<<<<<<< HEAD
 import { useAIChat } from '../context/AIChatContext';
-=======
->>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
 import { Search, Filter, ArrowUpDown, Download, ArrowRight } from 'lucide-react';
 import RiskBadge from '../components/RiskBadge';
 import { projects } from '../data/projects';
@@ -21,10 +18,7 @@ function fmt(n) {
 
 export default function Projects() {
   const navigate = useNavigate();
-<<<<<<< HEAD
   const { openChat } = useAIChat();
-=======
->>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
   const [search, setSearch] = useState('');
   const [sector, setSector] = useState('All Sectors');
   const [riskFilter, setRiskFilter] = useState('All Risk Levels');
@@ -76,7 +70,6 @@ export default function Projects() {
             <span className="demo-tag">DEMO DATA</span>
           </p>
         </div>
-<<<<<<< HEAD
         <div style={{ display: 'flex', gap: '8px' }}>
           <button className="btn btn-primary" onClick={openChat}>
             Find risky projects <ArrowRight className="icon-xs" />
@@ -85,11 +78,6 @@ export default function Projects() {
             <Download className="icon-sm" /> Export CSV
           </button>
         </div>
-=======
-        <button className="btn btn-secondary" title="Export (demo — no actual file)">
-          <Download className="icon-sm" /> Export CSV
-        </button>
->>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
       </div>
 
       {/* ── Filters ── */}

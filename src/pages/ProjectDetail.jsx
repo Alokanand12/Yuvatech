@@ -1,16 +1,10 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { 
-<<<<<<< HEAD
   ArrowLeft, Building2, MapPin, Calendar, DollarSign, Activity, ArrowRight,
   ShieldAlert, AlertCircle, AlertTriangle, CheckCircle2, TrendingUp, Cpu, HelpCircle, FileText
 } from 'lucide-react';
 import { useAIChat } from '../context/AIChatContext';
-=======
-  ArrowLeft, Building2, MapPin, Calendar, DollarSign, Activity, 
-  ShieldAlert, AlertCircle, AlertTriangle, CheckCircle2, TrendingUp, Cpu, HelpCircle, FileText
-} from 'lucide-react';
->>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
 import { 
   ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, Legend, LineChart, Line, Cell
 } from 'recharts';
@@ -40,10 +34,7 @@ const CustomTooltip = ({ active, payload, label }) => {
 export default function ProjectDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
-<<<<<<< HEAD
   const { openChat } = useAIChat();
-=======
->>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
 
   const project = demoProjects.find(p => p.id === id) || demoProjects[0];
 
@@ -86,18 +77,12 @@ export default function ProjectDetail() {
           Back to Projects Inventory
         </button>
 
-<<<<<<< HEAD
         <div className="detail-meta" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <span className="demo-tag">DEMO DATASET</span>
           <span className="prj-code-badge font-mono">{project.id}</span>
           <button className="btn btn-primary" onClick={openChat}>
             Ask AI about this project <ArrowRight className="icon-xs" />
           </button>
-=======
-        <div className="detail-meta">
-          <span className="demo-tag">DEMO DATASET</span>
-          <span className="prj-code-badge font-mono">{project.id}</span>
->>>>>>> 7d9f721fd3d4d685d5869fbd5a7d2de92836205f
         </div>
       </div>
 
