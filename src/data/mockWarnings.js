@@ -1,0 +1,121 @@
+// MoSPI DIID DEMO DATASET - Early Warning Alerts Command Center
+
+export const mockWarnings = [
+  {
+    id: "ALT-2024-8901",
+    projectId: "PRJ-MORT-101",
+    projectName: "Mumbai-Delhi Expressway Package 4",
+    ministry: "Ministry of Road Transport & Highways",
+    warningType: "FINANCIAL-PHYSICAL MISMATCH",
+    severity: "CRITICAL",
+    detectedDate: "2024-09-02",
+    trigger: "Financial progress (75%) exceeds physical progress (58%) by 17 percentage points.",
+    predictedImpact: "Estimated cost escalation of +₹620 Cr within 6 months if disalignment persists.",
+    recommendedAction: "Freeze unlinked milestone disbursements and conduct physical site quantity survey.",
+    details: "Automated telemetry flags that total financial billings for Package 4 have reached ₹4,440 Cr (75%) while drone physical survey confirms civil completion at only 58%. Over-disbursement gap expanded by 4.2% in August 2024."
+  },
+  {
+    id: "ALT-2024-8902",
+    projectId: "PRJ-RAIL-204",
+    projectName: "Udhampur-Srinagar-Baramulla Rail Link",
+    ministry: "Ministry of Railways",
+    warningType: "TIME DELAY",
+    severity: "HIGH",
+    detectedDate: "2024-08-28",
+    trigger: "Tunnel T-49 geological stabilization milestone rate declined by 55%.",
+    predictedImpact: "Additional delay of 6 months; risk of missing May 2025 overall completion target.",
+    recommendedAction: "Deploy high-capacity NATM shotcrete rig and re-allocate tunnel stabilization crew.",
+    details: "Continuous seismic monitoring in Tunnel T-49 indicated fault line movement, necessitating heavy steel rib reinforcement. Work rate slowed from 4.2m/day to 1.8m/day."
+  },
+  {
+    id: "ALT-2024-8903",
+    projectId: "PRJ-POWR-308",
+    projectName: "Subansiri Lower Hydroelectric Project (2000 MW)",
+    ministry: "Ministry of Power",
+    warningType: "COST ESCALATION",
+    severity: "CRITICAL",
+    detectedDate: "2024-08-15",
+    trigger: "Cumulative cost overrun trajectory crossed +218% baseline ceiling.",
+    predictedImpact: "Financial lock on contractor claims; potential ₹1,210 Cr additional budgetary demand.",
+    recommendedAction: "High-level inter-ministerial panel to finalize CCEA revised cost approval.",
+    details: "Revised project cost estimation reached ₹19,990 Cr against original ₹6,285 Cr. High interest during construction (IDC) accumulation requires urgent financial restructuring."
+  },
+  {
+    id: "ALT-2024-8904",
+    projectId: "PRJ-PETR-402",
+    projectName: "Barmer Refinery & Petrochemical Complex",
+    ministry: "Ministry of Petroleum & Natural Gas",
+    warningType: "MILESTONE DELAY",
+    severity: "HIGH",
+    detectedDate: "2024-09-08",
+    trigger: "Cracking Unit vessel delivery schedule delayed by 90 days at Mundra Port.",
+    predictedImpact: "Commissioning sequence delayed; critical path impacted by 4 months.",
+    recommendedAction: "Issue priority customs clearance directive and green-corridor heavy transport permit.",
+    details: "Customs inspection and specialized multi-axle trailer transport clearance bottlenecked at port gate. Crucial refinery cracking vessel waiting for transport escort."
+  },
+  {
+    id: "ALT-2024-8905",
+    projectId: "PRJ-COAL-802",
+    projectName: "Magadh Expansion Open Cast Coal Mine",
+    ministry: "Ministry of Coal",
+    warningType: "EXECUTION RISK",
+    severity: "HIGH",
+    detectedDate: "2024-08-20",
+    trigger: "Forest diversion Stage II approval queue duration exceeded 180 days.",
+    predictedImpact: "Heavy earth moving equipment idle time incurring ₹1.2 Cr daily penalty.",
+    recommendedAction: "Depute Ministry Nodal Officer to MoEFCC Nodal Cell for immediate clearance.",
+    details: "142 hectares of forest land handover delayed pending compensatory afforestation land title verification by state revenue department."
+  },
+  {
+    id: "ALT-2024-8906",
+    projectId: "PRJ-TELE-1101",
+    projectName: "BharatNet Phase-III Fiber Network (UP Zone)",
+    ministry: "Ministry of Communications",
+    warningType: "MILESTONE DELAY",
+    severity: "MEDIUM",
+    detectedDate: "2024-09-01",
+    trigger: "State Highway trenching RoW permits pending across 8 districts.",
+    predictedImpact: "Gram Panchayat connectivity milestone lagging by 22% in Q3 FY24.",
+    recommendedAction: "Activate State Level Broadband Committee (SBLC) fast-track mechanism.",
+    details: "Public Works Department of UP requested bank guarantee updates before issuing RoW trenching permissions in Eastern districts."
+  },
+  {
+    id: "ALT-2024-8907",
+    projectId: "PRJ-WATR-608",
+    projectName: "Polavaram National Irrigation Project",
+    ministry: "Ministry of Jal Shakti",
+    warningType: "COST ESCALATION",
+    severity: "CRITICAL",
+    detectedDate: "2024-08-10",
+    trigger: "Godavari flood season scour depth required structural redesign of ECRF dam.",
+    predictedImpact: "Additional ₹3,400 Cr structural reinforcement requirement.",
+    recommendedAction: "Convene Technical Advisory Committee (TAC) to approve modified dam foundation design.",
+    details: "Flood discharge peak of 22 Lakh cusecs caused localized scours near gap 1 of the Earth-cum-Rockfill dam. Diaphragm wall integrity test required."
+  },
+  {
+    id: "ALT-2024-8908",
+    projectId: "PRJ-RAIL-215",
+    projectName: "Sivok-Rangpo New Rail Line Project",
+    ministry: "Ministry of Railways",
+    warningType: "EXECUTION RISK",
+    severity: "CRITICAL",
+    detectedDate: "2024-09-10",
+    trigger: "Soft rock strata deformation in Tunnel T-7 exceeded safety threshold by 38mm.",
+    predictedImpact: "Tunneling stoppage; 8-month delay in track laying schedule.",
+    recommendedAction: "Deploy pipe-roofing canopy method and heavy 300mm steel arch supports.",
+    details: "Geological squeezing ground conditions encountered at Chainage 18+400. Excavation halted to prevent crown collapse."
+  },
+  {
+    id: "ALT-2024-8909",
+    projectId: "PRJ-SOCL-1201",
+    projectName: "AIIMS Madurai Campus Development Project",
+    ministry: "Ministry of Health & Family Welfare",
+    warningType: "FINANCIAL-PHYSICAL MISMATCH",
+    severity: "MEDIUM",
+    detectedDate: "2024-08-05",
+    trigger: "JICA international tranche disbursement paperwork delay.",
+    predictedImpact: "Contractor cashflow bottleneck slowing structural slab casting.",
+    recommendedAction: "Expedite Ministry of Finance DEA clearance for JICA Tranche 2 release.",
+    details: "Civil contractor delayed sub-contractor payments by 45 days due to pending interim payment certificate (IPC) release."
+  }
+];

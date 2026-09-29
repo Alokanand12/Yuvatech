@@ -1,0 +1,34 @@
+
+.w-status-badge {
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.w-status-badge.new {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+.w-status-badge.under-review {
+  background-color: #f59e0b;
+  color: #fff;
+}
+
+.w-status-badge.monitored {
+  background-color: #10b981;
+  color: #fff;
+}
+
+.w-status-badge.resolved {
+  background-color: #64748b;
+  color: #fff;
+}
+
+.w-card-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

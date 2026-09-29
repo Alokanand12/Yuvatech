@@ -1,0 +1,85 @@
+
+.chart-tooltip {
+  background-color: #0b0f19;
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.pred-card-extended {
+  display: flex;
+  flex-direction: column;
+  padding: 1.15rem;
+  background-color: #0b0f19;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+}
+
+.pred-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.time-details {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  background: #111827;
+  padding: 0.85rem;
+  border-radius: 6px;
+  border: 1px solid #1e293b;
+}
+
+.time-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-analysis-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.gap-warning-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #f8fafc;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  border-left: 3px solid #ef4444;
+}
+
+.action-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-risk-label {
+  font-size: 0.75rem;
+  color: #f59e0b;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.action-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: #cbd5e1;
+  line-height: 1.4;
+}
+
+.action-body strong {
+  color: #f8fafc;
+}
